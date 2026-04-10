@@ -25,7 +25,7 @@ const Index = () => (
       className="relative min-h-[92vh] flex items-center justify-center overflow-hidden"
       style={{ backgroundImage: `url(${heroBg})`, backgroundSize: "cover", backgroundPosition: "center" }}
     >
-      <div className="absolute inset-0" style={{ background: "var(--hero-gradient)", opacity: 0.88 }} />
+      <div className="absolute inset-0" style={{ background: "var(--hero-gradient)", opacity: 0.92 }} />
       <div className="relative z-10 container text-center max-w-3xl py-32">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight animate-fade-in">
           Final Year Engineering Projects in Chennai
