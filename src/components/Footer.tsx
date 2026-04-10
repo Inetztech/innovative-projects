@@ -31,8 +31,10 @@ const Footer = () => (
         </div>
         <div>
           <h4 className="font-sans font-semibold text-sm mb-3">Contact</h4>
-          <p className="text-sm text-primary-foreground/70 font-sans">Chennai, Tamil Nadu, India</p>
-          <p className="text-sm text-primary-foreground/70 font-sans mt-1">+91 98765 43210</p>
+          <p className="text-sm text-primary-foreground/70 font-sans">3rd Floor, K.P Towers, No-159, Arcot Rd</p>
+          <p className="text-sm text-primary-foreground/70 font-sans">Opp. Nexus Vijaya Mall, Vadapalani</p>
+          <p className="text-sm text-primary-foreground/70 font-sans">Chennai, Tamil Nadu 600026</p>
+          <p className="text-sm text-primary-foreground/70 font-sans mt-1">+91 98844 41984</p>
           <p className="text-sm text-primary-foreground/70 font-sans mt-1">info@projecthub.in</p>
         </div>
       </div>
