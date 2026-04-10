@@ -3,10 +3,10 @@ import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Mail, MessageCircle, Clock, Send } from "lucide-react";
 
 const contactInfo = [
-  { icon: MapPin, title: "Visit Us", lines: ["Chennai, Tamil Nadu", "India"] },
-  { icon: Phone, title: "Call Us", lines: ["+91 98765 43210"] },
+  { icon: MapPin, title: "Visit Us", lines: ["3rd Floor, K.P Towers, No-159, Arcot Rd", "Opp. Nexus Vijaya Mall, Vadapalani", "Chennai, Tamil Nadu 600026"] },
+  { icon: Phone, title: "Call Us", lines: ["+91 98844 41984"] },
   { icon: Mail, title: "Email Us", lines: ["info@projecthub.in"] },
-  { icon: MessageCircle, title: "WhatsApp", lines: ["+91 98765 43210"] },
+  { icon: MessageCircle, title: "WhatsApp", lines: ["+91 98844 41984"] },
   { icon: Clock, title: "Working Hours", lines: ["Mon–Sat: 9:00 AM – 7:00 PM", "Sunday: By Appointment"] },
 ];
 
@@ -16,7 +16,7 @@ const ContactPage = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const text = `Name: ${form.name}%0AEmail: ${form.email}%0APhone: ${form.phone}%0ADept: ${form.department}%0AMessage: ${form.message}`;
-    window.open(`https://wa.me/919876543210?text=${text}`, "_blank");
+    window.open(`https://wa.me/919884441984?text=${text}`, "_blank");
   };
 
   const inputClass = "w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground text-sm font-sans focus:outline-none focus:ring-2 focus:ring-ring transition-shadow";
