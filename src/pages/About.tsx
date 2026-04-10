@@ -41,19 +41,19 @@ const AboutPage = () => (
           <div className="bg-card rounded-2xl p-10 shadow-card">
             <div className="grid grid-cols-2 gap-8 text-center">
               <div>
-                <p className="text-4xl font-bold font-serif text-primary">500+</p>
+                <p className="text-4xl font-bold font-serif text-foreground">500+</p>
                 <p className="text-sm text-muted-foreground font-sans mt-1">Projects Completed</p>
               </div>
               <div>
-                <p className="text-4xl font-bold font-serif text-primary">50+</p>
+                <p className="text-4xl font-bold font-serif text-foreground">50+</p>
                 <p className="text-sm text-muted-foreground font-sans mt-1">College Partners</p>
               </div>
               <div>
-                <p className="text-4xl font-bold font-serif text-primary">8+</p>
+                <p className="text-4xl font-bold font-serif text-foreground">8+</p>
                 <p className="text-sm text-muted-foreground font-sans mt-1">Years Experience</p>
               </div>
               <div>
-                <p className="text-4xl font-bold font-serif text-primary">98%</p>
+                <p className="text-4xl font-bold font-serif text-foreground">98%</p>
                 <p className="text-sm text-muted-foreground font-sans mt-1">Success Rate</p>
               </div>
             </div>
@@ -72,7 +72,7 @@ const AboutPage = () => (
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {values.map((v) => (
             <div key={v.title} className="p-6 rounded-xl bg-background shadow-card hover:shadow-card-hover transition-shadow">
-              <div className="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center mb-4">
+              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
                 <v.icon className="w-6 h-6 text-primary" />
               </div>
               <h3 className="font-serif text-lg font-semibold text-foreground">{v.title}</h3>

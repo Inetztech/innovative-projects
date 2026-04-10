@@ -31,7 +31,7 @@ const DomainsPage = () => (
           {domains.map((d) => (
             <div key={d.label} className="group p-8 rounded-xl bg-card shadow-card hover:shadow-card-hover transition-all hover:-translate-y-1">
               <div className="flex items-start gap-5">
-                <div className="w-14 h-14 rounded-xl bg-secondary flex items-center justify-center shrink-0 group-hover:bg-accent/10 transition-colors">
+                <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-accent/10 transition-colors">
                   <d.icon className="w-7 h-7 text-accent" />
                 </div>
                 <div className="flex-1">

@@ -47,8 +47,8 @@ const ServicesPage = () => (
     <section className="py-20 bg-background">
       <div className="container max-w-5xl">
         <div className="flex items-center gap-3 mb-10">
-          <div className="w-10 h-10 rounded-md bg-primary flex items-center justify-center">
-            <Cpu className="w-5 h-5 text-primary-foreground" />
+          <div className="w-10 h-10 rounded-md bg-primary/10 flex items-center justify-center">
+            <Cpu className="w-5 h-5 text-primary" />
           </div>
           <h2 className="text-2xl md:text-3xl font-bold text-foreground">Hardware Projects</h2>
         </div>
@@ -62,8 +62,8 @@ const ServicesPage = () => (
     <section className="py-20 bg-card">
       <div className="container max-w-5xl">
         <div className="flex items-center gap-3 mb-10">
-          <div className="w-10 h-10 rounded-md bg-primary flex items-center justify-center">
-            <Globe className="w-5 h-5 text-primary-foreground" />
+          <div className="w-10 h-10 rounded-md bg-primary/10 flex items-center justify-center">
+            <Globe className="w-5 h-5 text-primary" />
           </div>
           <h2 className="text-2xl md:text-3xl font-bold text-foreground">Software Projects</h2>
         </div>
