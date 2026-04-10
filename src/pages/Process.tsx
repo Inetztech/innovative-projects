@@ -38,7 +38,7 @@ const ProcessPage = () => (
     <section className="py-20 bg-card border-b border-border">
       <div className="container max-w-4xl text-center">
         <p className="text-sm font-sans font-semibold text-primary uppercase tracking-widest mb-3">Our Process</p>
-        <h1 className="text-4xl md:text-5xl font-bold text-primary">How It Works</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-foreground">How It Works</h1>
         <p className="mt-6 text-muted-foreground font-sans leading-relaxed max-w-2xl mx-auto">
           A simple, transparent, four-step process designed to make your project journey smooth and stress-free.
         </p>
@@ -87,7 +87,7 @@ const ProcessPage = () => (
 
     <section className="py-16 bg-card">
       <div className="container max-w-3xl text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-primary">Ready to Begin?</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-foreground">Ready to Begin?</h2>
         <p className="mt-3 text-muted-foreground font-sans">Start with a free consultation — no commitment required.</p>
         <div className="mt-8">
           <Button size="lg" asChild><Link to="/contact">Book a Consultation</Link></Button>

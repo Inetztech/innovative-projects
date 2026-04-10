@@ -36,7 +36,7 @@ const ServicesPage = () => (
     <section className="py-20 bg-card border-b border-border">
       <div className="container max-w-4xl text-center">
         <p className="text-sm font-sans font-semibold text-primary uppercase tracking-widest mb-3">Our Services</p>
-        <h1 className="text-4xl md:text-5xl font-bold text-primary">What We Offer</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-foreground">What We Offer</h1>
         <p className="mt-6 text-muted-foreground font-sans leading-relaxed max-w-2xl mx-auto">
           Comprehensive project support across hardware and software domains, tailored for final-year engineering students.
         </p>
@@ -50,7 +50,7 @@ const ServicesPage = () => (
           <div className="w-10 h-10 rounded-md bg-primary flex items-center justify-center">
             <Cpu className="w-5 h-5 text-primary-foreground" />
           </div>
-          <h2 className="text-2xl md:text-3xl font-bold text-primary">Hardware Projects</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground">Hardware Projects</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           {hardware.map((s) => <ServiceCard key={s.title} {...s} />)}
@@ -65,7 +65,7 @@ const ServicesPage = () => (
           <div className="w-10 h-10 rounded-md bg-primary flex items-center justify-center">
             <Globe className="w-5 h-5 text-primary-foreground" />
           </div>
-          <h2 className="text-2xl md:text-3xl font-bold text-primary">Software Projects</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground">Software Projects</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           {software.map((s) => <ServiceCard key={s.title} {...s} />)}
@@ -76,7 +76,7 @@ const ServicesPage = () => (
     {/* Additional */}
     <section className="py-20 bg-background">
       <div className="container max-w-5xl">
-        <h2 className="text-2xl md:text-3xl font-bold text-primary mb-10">Additional Specializations</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-10">Additional Specializations</h2>
         <div className="grid md:grid-cols-2 gap-8">
           {additional.map((s) => <ServiceCard key={s.title} {...s} />)}
         </div>
@@ -85,7 +85,7 @@ const ServicesPage = () => (
 
     <section className="py-16 bg-card">
       <div className="container max-w-3xl text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-primary">Need a Custom Project?</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-foreground">Need a Custom Project?</h2>
         <p className="mt-3 text-muted-foreground font-sans">We can tailor a project to your specific requirements and academic needs.</p>
         <div className="mt-8">
           <Button size="lg" asChild><Link to="/contact">Discuss Your Project</Link></Button>

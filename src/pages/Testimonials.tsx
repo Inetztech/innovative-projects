@@ -16,7 +16,7 @@ const TestimonialsPage = () => (
     <section className="py-20 bg-card border-b border-border">
       <div className="container max-w-4xl text-center">
         <p className="text-sm font-sans font-semibold text-primary uppercase tracking-widest mb-3">Testimonials</p>
-        <h1 className="text-4xl md:text-5xl font-bold text-primary">What Students Say</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-foreground">What Students Say</h1>
         <p className="mt-6 text-muted-foreground font-sans leading-relaxed max-w-2xl mx-auto">
           Hear from students who successfully completed their final year projects with our guidance and support.
         </p>
@@ -47,7 +47,7 @@ const TestimonialsPage = () => (
 
     <section className="py-16 bg-card">
       <div className="container max-w-3xl text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-primary">Join Our Growing Community</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-foreground">Join Our Growing Community</h2>
         <p className="mt-3 text-muted-foreground font-sans">Be the next success story. Start your project journey today.</p>
         <div className="mt-8">
           <Button size="lg" asChild><Link to="/contact">Get Started</Link></Button>
