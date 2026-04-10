@@ -37,8 +37,8 @@ const ProcessPage = () => (
   <div>
     <section className="py-20 bg-card border-b border-border">
       <div className="container max-w-4xl text-center">
-        <p className="text-sm font-sans font-semibold text-accent uppercase tracking-widest mb-3">Our Process</p>
-        <h1 className="text-4xl md:text-5xl font-bold text-primary">How It Works</h1>
+        <p className="text-sm font-sans font-semibold text-primary uppercase tracking-widest mb-3">Our Process</p>
+        <h1 className="text-4xl md:text-5xl font-bold text-foreground">How It Works</h1>
         <p className="mt-6 text-muted-foreground font-sans leading-relaxed max-w-2xl mx-auto">
           A simple, transparent, four-step process designed to make your project journey smooth and stress-free.
         </p>
@@ -63,7 +63,7 @@ const ProcessPage = () => (
               {/* Content */}
               <div className="flex-1 p-8 rounded-xl bg-card shadow-card hover:shadow-card-hover transition-shadow">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="text-xs font-sans font-bold text-accent bg-accent/10 px-3 py-1 rounded-full">Step {s.step}</span>
+                  <span className="text-xs font-sans font-bold text-primary bg-primary/10 px-3 py-1 rounded-full">Step {s.step}</span>
                   <div className="md:hidden w-8 h-8 rounded-full bg-primary flex items-center justify-center">
                     <s.icon className="w-4 h-4 text-primary-foreground" />
                   </div>
@@ -87,7 +87,7 @@ const ProcessPage = () => (
 
     <section className="py-16 bg-card">
       <div className="container max-w-3xl text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-primary">Ready to Begin?</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-foreground">Ready to Begin?</h2>
         <p className="mt-3 text-muted-foreground font-sans">Start with a free consultation — no commitment required.</p>
         <div className="mt-8">
           <Button size="lg" asChild><Link to="/contact">Book a Consultation</Link></Button>

@@ -16,8 +16,8 @@ const AboutPage = () => (
     {/* Page Header */}
     <section className="py-20 bg-card border-b border-border">
       <div className="container max-w-4xl text-center">
-        <p className="text-sm font-sans font-semibold text-accent uppercase tracking-widest mb-3">About Us</p>
-        <h1 className="text-4xl md:text-5xl font-bold text-primary">Who We Are</h1>
+        <p className="text-sm font-sans font-semibold text-primary uppercase tracking-widest mb-3">About Us</p>
+        <h1 className="text-4xl md:text-5xl font-bold text-foreground">Who We Are</h1>
         <p className="mt-6 text-muted-foreground font-sans leading-relaxed max-w-2xl mx-auto">
           We are a dedicated project center based in Chennai, committed to supporting final-year BE, BTech, and Diploma students with high-quality academic projects.
         </p>
@@ -29,8 +29,8 @@ const AboutPage = () => (
       <div className="container max-w-5xl">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-sm font-sans font-semibold text-accent uppercase tracking-widest mb-3">Our Mission</p>
-            <h2 className="text-3xl font-bold text-primary">Empowering Students Through Practical Learning</h2>
+            <p className="text-sm font-sans font-semibold text-primary uppercase tracking-widest mb-3">Our Mission</p>
+            <h2 className="text-3xl font-bold text-foreground">Empowering Students Through Practical Learning</h2>
             <p className="mt-6 text-muted-foreground font-sans leading-relaxed">
               Our mission is to bridge the gap between academic theory and practical application. We believe every engineering student deserves access to quality project guidance that prepares them for the real world.
             </p>
@@ -41,19 +41,19 @@ const AboutPage = () => (
           <div className="bg-card rounded-2xl p-10 shadow-card">
             <div className="grid grid-cols-2 gap-8 text-center">
               <div>
-                <p className="text-4xl font-bold font-serif text-primary">500+</p>
+                <p className="text-4xl font-bold font-serif text-foreground">500+</p>
                 <p className="text-sm text-muted-foreground font-sans mt-1">Projects Completed</p>
               </div>
               <div>
-                <p className="text-4xl font-bold font-serif text-primary">50+</p>
+                <p className="text-4xl font-bold font-serif text-foreground">50+</p>
                 <p className="text-sm text-muted-foreground font-sans mt-1">College Partners</p>
               </div>
               <div>
-                <p className="text-4xl font-bold font-serif text-primary">8+</p>
+                <p className="text-4xl font-bold font-serif text-foreground">8+</p>
                 <p className="text-sm text-muted-foreground font-sans mt-1">Years Experience</p>
               </div>
               <div>
-                <p className="text-4xl font-bold font-serif text-primary">98%</p>
+                <p className="text-4xl font-bold font-serif text-foreground">98%</p>
                 <p className="text-sm text-muted-foreground font-sans mt-1">Success Rate</p>
               </div>
             </div>
@@ -66,14 +66,14 @@ const AboutPage = () => (
     <section className="py-20 bg-card">
       <div className="container max-w-5xl">
         <div className="text-center mb-14">
-          <p className="text-sm font-sans font-semibold text-accent uppercase tracking-widest mb-3">Our Values</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-primary">What Drives Us</h2>
+          <p className="text-sm font-sans font-semibold text-primary uppercase tracking-widest mb-3">Our Values</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground">What Drives Us</h2>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {values.map((v) => (
             <div key={v.title} className="p-6 rounded-xl bg-background shadow-card hover:shadow-card-hover transition-shadow">
-              <div className="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center mb-4">
-                <v.icon className="w-6 h-6 text-accent" />
+              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                <v.icon className="w-6 h-6 text-primary" />
               </div>
               <h3 className="font-serif text-lg font-semibold text-foreground">{v.title}</h3>
               <p className="mt-2 text-sm text-muted-foreground font-sans leading-relaxed">{v.text}</p>
@@ -86,7 +86,7 @@ const AboutPage = () => (
     {/* CTA */}
     <section className="py-16 bg-background">
       <div className="container max-w-3xl text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-primary">Want to Know More?</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-foreground">Want to Know More?</h2>
         <p className="mt-3 text-muted-foreground font-sans">Explore our services or get in touch with our team.</p>
         <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
           <Button asChild><Link to="/services">Our Services</Link></Button>

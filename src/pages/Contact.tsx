@@ -25,8 +25,8 @@ const ContactPage = () => {
     <div>
       <section className="py-20 bg-card border-b border-border">
         <div className="container max-w-4xl text-center">
-          <p className="text-sm font-sans font-semibold text-accent uppercase tracking-widest mb-3">Contact Us</p>
-          <h1 className="text-4xl md:text-5xl font-bold text-primary">Get in Touch</h1>
+          <p className="text-sm font-sans font-semibold text-primary uppercase tracking-widest mb-3">Contact Us</p>
+          <h1 className="text-4xl md:text-5xl font-bold text-foreground">Get in Touch</h1>
           <p className="mt-6 text-muted-foreground font-sans leading-relaxed max-w-2xl mx-auto">
             Ready to start your project? Have questions? We'd love to hear from you. Reach out through any of the channels below.
           </p>
@@ -40,8 +40,8 @@ const ContactPage = () => {
             <div className="lg:col-span-2 space-y-6">
               {contactInfo.map((c) => (
                 <div key={c.title} className="flex items-start gap-4">
-                  <div className="w-11 h-11 rounded-lg bg-secondary flex items-center justify-center shrink-0">
-                    <c.icon className="w-5 h-5 text-accent" />
+                  <div className="w-11 h-11 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                    <c.icon className="w-5 h-5 text-primary" />
                   </div>
                   <div>
                     <h4 className="font-sans font-semibold text-foreground text-sm">{c.title}</h4>
