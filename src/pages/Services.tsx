@@ -24,7 +24,7 @@ const additional = [
 const ServiceCard = ({ icon: Icon, title, desc }: { icon: React.ElementType; title: string; desc: string }) => (
   <div className="p-6 rounded-xl bg-card shadow-card hover:shadow-card-hover transition-all hover:-translate-y-0.5">
     <div className="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center mb-4">
-      <Icon className="w-6 h-6 text-accent" />
+      <Icon className="w-6 h-6 text-primary" />
     </div>
     <h3 className="font-serif text-lg font-semibold text-foreground">{title}</h3>
     <p className="mt-2 text-sm text-muted-foreground font-sans leading-relaxed">{desc}</p>
@@ -35,7 +35,7 @@ const ServicesPage = () => (
   <div>
     <section className="py-20 bg-card border-b border-border">
       <div className="container max-w-4xl text-center">
-        <p className="text-sm font-sans font-semibold text-accent uppercase tracking-widest mb-3">Our Services</p>
+        <p className="text-sm font-sans font-semibold text-primary uppercase tracking-widest mb-3">Our Services</p>
         <h1 className="text-4xl md:text-5xl font-bold text-primary">What We Offer</h1>
         <p className="mt-6 text-muted-foreground font-sans leading-relaxed max-w-2xl mx-auto">
           Comprehensive project support across hardware and software domains, tailored for final-year engineering students.

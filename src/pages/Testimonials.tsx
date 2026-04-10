@@ -15,7 +15,7 @@ const TestimonialsPage = () => (
   <div>
     <section className="py-20 bg-card border-b border-border">
       <div className="container max-w-4xl text-center">
-        <p className="text-sm font-sans font-semibold text-accent uppercase tracking-widest mb-3">Testimonials</p>
+        <p className="text-sm font-sans font-semibold text-primary uppercase tracking-widest mb-3">Testimonials</p>
         <h1 className="text-4xl md:text-5xl font-bold text-primary">What Students Say</h1>
         <p className="mt-6 text-muted-foreground font-sans leading-relaxed max-w-2xl mx-auto">
           Hear from students who successfully completed their final year projects with our guidance and support.
@@ -28,11 +28,11 @@ const TestimonialsPage = () => (
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((t) => (
             <div key={t.name} className="p-6 rounded-xl bg-card shadow-card hover:shadow-card-hover transition-shadow flex flex-col">
-              <Quote className="w-8 h-8 text-accent/25 mb-4" />
+              <Quote className="w-8 h-8 text-primary/20 mb-4" />
               <p className="text-sm text-muted-foreground font-sans leading-relaxed italic flex-1">"{t.text}"</p>
               <div className="flex gap-0.5 mt-4">
                 {Array.from({ length: 5 }).map((_, i) => (
-                  <Star key={i} className={`w-4 h-4 ${i < t.rating ? "text-accent fill-accent" : "text-border"}`} />
+                  <Star key={i} className={`w-4 h-4 ${i < t.rating ? "text-primary fill-primary" : "text-border"}`} />
                 ))}
               </div>
               <div className="mt-4 pt-4 border-t border-border">

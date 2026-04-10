@@ -17,7 +17,7 @@ const DomainsPage = () => (
   <div>
     <section className="py-20 bg-card border-b border-border">
       <div className="container max-w-4xl text-center">
-        <p className="text-sm font-sans font-semibold text-accent uppercase tracking-widest mb-3">Project Domains</p>
+        <p className="text-sm font-sans font-semibold text-primary uppercase tracking-widest mb-3">Project Domains</p>
         <h1 className="text-4xl md:text-5xl font-bold text-primary">Explore Our Domains</h1>
         <p className="mt-6 text-muted-foreground font-sans leading-relaxed max-w-2xl mx-auto">
           Choose from a wide range of cutting-edge technology domains. Each domain includes multiple project options with complete support.
@@ -37,7 +37,7 @@ const DomainsPage = () => (
                 <div className="flex-1">
                   <div className="flex items-center justify-between">
                     <h3 className="font-serif text-lg font-semibold text-foreground">{d.label}</h3>
-                    <span className="text-xs font-sans font-medium text-accent bg-accent/10 px-2.5 py-1 rounded-full">{d.count}</span>
+                    <span className="text-xs font-sans font-medium text-primary bg-primary/10 px-2.5 py-1 rounded-full">{d.count}</span>
                   </div>
                   <p className="mt-2 text-sm text-muted-foreground font-sans leading-relaxed">{d.desc}</p>
                 </div>
