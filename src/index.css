@@ -6,37 +6,37 @@
 
 @layer base {
   :root {
-    --background: 210 20% 98%;
-    --foreground: 220 30% 15%;
+    --background: 30 20% 98%;
+    --foreground: 20 30% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 30% 15%;
+    --card-foreground: 20 30% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 30% 15%;
+    --popover-foreground: 20 30% 12%;
 
-    --primary: 220 60% 25%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 24 70% 45%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 20% 95%;
-    --secondary-foreground: 220 30% 15%;
+    --secondary: 30 25% 94%;
+    --secondary-foreground: 20 30% 12%;
 
-    --muted: 210 15% 93%;
-    --muted-foreground: 215 14% 45%;
+    --muted: 30 15% 92%;
+    --muted-foreground: 20 10% 45%;
 
-    --accent: 200 70% 45%;
+    --accent: 24 85% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214 20% 88%;
-    --input: 214 20% 88%;
-    --ring: 220 60% 25%;
+    --border: 30 18% 88%;
+    --input: 30 18% 88%;
+    --ring: 24 70% 45%;
 
     --radius: 0.5rem;
 
-    --hero-gradient: linear-gradient(135deg, hsl(220 60% 20%) 0%, hsl(220 50% 30%) 50%, hsl(200 50% 35%) 100%);
+    --hero-gradient: linear-gradient(135deg, hsl(20 65% 18%) 0%, hsl(24 60% 30%) 50%, hsl(28 55% 38%) 100%);
     --card-shadow: 0 2px 12px hsl(220 30% 15% / 0.06);
     --card-shadow-hover: 0 8px 30px hsl(220 30% 15% / 0.1);
 
