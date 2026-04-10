@@ -16,7 +16,7 @@ const ContactPage = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const text = `Name: ${form.name}%0AEmail: ${form.email}%0APhone: ${form.phone}%0ADept: ${form.department}%0AMessage: ${form.message}`;
-    window.open(`https://wa.me/919876543210?text=${text}`, "_blank");
+    window.open(`https://wa.me/919884441984?text=${text}`, "_blank");
   };
 
   const inputClass = "w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground text-sm font-sans focus:outline-none focus:ring-2 focus:ring-ring transition-shadow";
