@@ -8,7 +8,7 @@ const footerLinks = [
 ];
 
 const Footer = () => (
-  <footer className="py-12 bg-foreground text-background">
+  <footer className="py-12 bg-accent text-accent-foreground">
     <div className="container max-w-5xl">
       <div className="grid md:grid-cols-3 gap-8">
         <div>
