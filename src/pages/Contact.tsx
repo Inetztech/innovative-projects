@@ -5,7 +5,7 @@ import { MapPin, Phone, Mail, MessageCircle, Clock, Send } from "lucide-react";
 const contactInfo = [
   { icon: MapPin, title: "Visit Us", lines: ["3rd Floor, K.P Towers, No-159, Arcot Rd", "Opp. Nexus Vijaya Mall, Vadapalani", "Chennai, Tamil Nadu 600026"] },
   { icon: Phone, title: "Call Us", lines: ["+91 98844 41984"] },
-  { icon: Mail, title: "Email Us", lines: ["info@projecthub.in"] },
+  { icon: Mail, title: "Email Us", lines: ["innovativeprojectschennai@gmail.com"] },
   { icon: MessageCircle, title: "WhatsApp", lines: ["+91 98844 41984"] },
   { icon: Clock, title: "Working Hours", lines: ["Mon–Sat: 9:00 AM – 7:00 PM", "Sunday: By Appointment"] },
 ];

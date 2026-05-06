@@ -36,7 +36,7 @@ const Footer = () => (
           <p className="text-sm text-accent-foreground/70 font-sans">Opp. Nexus Vijaya Mall, Vadapalani</p>
           <p className="text-sm text-accent-foreground/70 font-sans">Chennai, Tamil Nadu 600026</p>
           <p className="text-sm text-accent-foreground/70 font-sans mt-1">+91 98844 41984</p>
-          <p className="text-sm text-accent-foreground/70 font-sans mt-1">info@projecthub.in</p>
+          <p className="text-sm text-accent-foreground/70 font-sans mt-1 break-all">innovativeprojectschennai@gmail.com</p>
         </div>
       </div>
       <div className="mt-10 pt-6 border-t border-background/15 text-center">
