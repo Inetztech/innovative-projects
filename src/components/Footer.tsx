@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.jpeg";
 
 const footerLinks = [
   { label: "About", to: "/about" },
@@ -12,10 +13,10 @@ const Footer = () => (
     <div className="container max-w-5xl">
       <div className="grid md:grid-cols-3 gap-8">
         <div>
-          <Link to="/" className="font-serif text-lg font-bold">
-            ProjectHub<span className="text-accent">.</span>
+          <Link to="/" className="inline-block bg-background rounded-md p-2">
+            <img src={logo} alt="Innovative Projects logo" className="h-10 w-auto object-contain" />
           </Link>
-          <p className="mt-2 text-sm text-accent-foreground/70 font-sans">
+          <p className="mt-3 text-sm text-accent-foreground/70 font-sans">
             Trusted project guidance for final-year engineering students in Chennai.
           </p>
         </div>
